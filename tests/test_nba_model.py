@@ -39,3 +39,18 @@ def test_tied_nba_score_rejected():
 def test_duplicate_games_rejected():
     with pytest.raises(ValueError):
         fit_ratings([game(1),game(1)],"2026-10-02T00:00:00Z")
+
+def test_offseason_regression_reduces_old_rating_advantage():
+    first=game(1)
+    first["start_at"]="2025-04-01T18:00:00Z"
+    first["completed_at"]="2025-04-01T21:00:00Z"
+    second=game(2)
+    second["start_at"]="2025-10-21T18:00:00Z"
+    second["completed_at"]="2025-10-21T21:00:00Z"
+    baseline=fit_ratings([first,second],"2025-10-22T00:00:00Z")
+    regressed=fit_ratings([first,second],"2025-10-22T00:00:00Z",offseason_retention=0)
+    assert regressed["ratings"]["A"] < baseline["ratings"]["A"]
+
+def test_invalid_offseason_retention_rejected():
+    with pytest.raises(ValueError):
+        fit_ratings([game(1)],"2026-10-02T00:00:00Z",offseason_retention=1.1)
