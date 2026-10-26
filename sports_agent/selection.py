@@ -1,5 +1,6 @@
 """Risk-controlled selection for the fictional sports portfolio."""
 from .edge import Policy, evaluate
+from .horizon import time_filter
 
 def select_paper_candidates(opportunities, equity, reserved_stakes=0, health=100, policy=Policy()):
     if not 0 <= health <= 100:
@@ -22,6 +23,12 @@ def select_paper_candidates(opportunities, equity, reserved_stakes=0, health=100
                           probability_source=item.get("probability_source", ""),
                           model_uncertainty=item.get("model_uncertainty", 0))
         if result["status"] == "candidate":
+            horizon = time_filter(result["paper_stake"], item.get("expected_settlement_minutes"),
+                                  item.get("settlement_source", ""))
+            if not horizon["accepted"]:
+                rejected.append({**result, "status": "reject", "reason": horizon["reason"]})
+                continue
+            result = {**result, "settlement": horizon}
             accepted.append(result)
             reserved = round(reserved + result["paper_stake"], 2)
             seen.add(key)
