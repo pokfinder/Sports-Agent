@@ -6,7 +6,7 @@ import argparse
 import json
 from pathlib import Path
 from sports_agent.nba_history import fetch_historical_games
-from sports_agent.nba_backtest import backtest_elo
+from sports_agent.nba_backtest import backtest_elo\nfrom sports_agent.nba_probability_calibration import separated_calibration
 
 def main():
     parser=argparse.ArgumentParser()
@@ -18,7 +18,7 @@ def main():
     args=parser.parse_args()
     games=fetch_historical_games(args.start,args.end)
     result=backtest_elo(games,minimum_training_games=args.minimum_training,
-                        min_evaluation_games=args.minimum_evaluation)
+                        min_evaluation_games=args.minimum_evaluation, return_predictions=True)\n    predictions=result.pop("predictions")\n    result["separated_calibration"]=separated_calibration(predictions,min_holdout=args.minimum_evaluation)
     result.update({"source":"ESPN public scoreboard (unofficial)",
                    "start_date":args.start,"end_date":args.end,
                    "historical_games":len(games),
