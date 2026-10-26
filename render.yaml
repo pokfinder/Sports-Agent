@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: sports-agent-dashboard
+    runtime: static
+    repo: https://github.com/pokfinder/Sports-Agent
+    branch: main
+    buildCommand: echo "Sports Agent static dashboard"
+    staticPublishPath: ./docs
+    autoDeployTrigger: commit
