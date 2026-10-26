@@ -28,8 +28,7 @@ def main():
                    "completion_timestamps":"conservative six-hour proxies, not actual completion times"})
     path=Path(args.output)
     path.parent.mkdir(parents=True,exist_ok=True)
-    path.write_text(json.dumps(result,indent=2,sort_keys=True)+"
-")
+    path.write_text(json.dumps(result,indent=2,sort_keys=True)+chr(10))
     print(json.dumps(result,indent=2))
 
 if __name__=="__main__":
