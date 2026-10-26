@@ -18,14 +18,14 @@ def utc(value):
         raise ValueError("Timezone required")
     return d.astimezone(timezone.utc)
 
-def fit_ratings(games, cutoff, *, k=20.0, home_advantage=65.0):
+def fit_ratings(games, cutoff, *, k=20.0, home_advantage=65.0, offseason_retention=1.0):
     """Fit online Elo ratings from finalized chronological NBA games.
 
     k and home_advantage are fixed prior assumptions; tune on a training set,
     never on the held-out games.
     """
     boundary = utc(cutoff)
-    if not 0 < k <= 100 or not -300 <= home_advantage <= 300:
+    if not 0 < k <= 100 or not -300 <= home_advantage <= 300 or not 0 <= offseason_retention <= 1:
         raise ValueError("Invalid rating parameters")
     seen = set()
     clean = []
@@ -46,14 +46,22 @@ def fit_ratings(games, cutoff, *, k=20.0, home_advantage=65.0):
         clean.append((end, gid, home, away, hs, aws))
     clean.sort()
     ratings = {}
-    for _, _, home, away, hs, aws in clean:
+    previous_season = None
+    for completed, _, home, away, hs, aws in clean:
+        # NBA season is identified by the calendar year in which it begins.
+        # October 1 is an explicit approximation for offseason boundaries.
+        season = completed.year if completed.month >= 10 else completed.year - 1
+        if previous_season is not None and season > previous_season:
+            for team in ratings:
+                ratings[team] = 1500.0 + (ratings[team] - 1500.0) * offseason_retention
+        previous_season = season
         h, a = ratings.get(home, 1500.0), ratings.get(away, 1500.0)
         p = 1 / (1 + 10 ** ((a - h - home_advantage) / 400))
         delta = k * ((1 if hs > aws else 0) - p)
         ratings[home] = h + delta
         ratings[away] = a - delta
     return {"ratings": ratings, "games_trained": len(clean), "trained_through": cutoff,
-            "k": k, "home_advantage": home_advantage, "model_version": "nba_elo_v1"}
+            "k": k, "home_advantage": home_advantage, "offseason_retention": offseason_retention, "model_version": "nba_elo_v1"}
 
 def predict_home(model, home, away, start_at):
     if not isinstance(model, dict) or model.get("model_version") != "nba_elo_v1":
