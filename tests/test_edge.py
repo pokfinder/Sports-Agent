@@ -24,10 +24,10 @@ def test_reject_no_provenance():
     result = evaluate(quote(), 0.8, 100)
     assert result["status"] == "reject"
 
-def test_small_bankroll_does_not_force_minimum():
+def test_small_bankroll_accepts_sub_five_dollar_edge():
     result = evaluate(quote(), 0.6, 32.6, probability_source="independent model")
-    assert result["status"] == "reject"
-    assert result["reason"] == "Calculated safe stake below minimum"
+    assert result["status"] == "candidate"
+    assert 0.01 <= result["paper_stake"] < 5
 
 def test_candidate_with_sufficient_edge_and_bankroll():
     result = evaluate(quote(), 0.7, 200, probability_source="independent model")
