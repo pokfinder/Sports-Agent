@@ -42,4 +42,6 @@ def backtest_elo(games, *, minimum_training_games=100, min_evaluation_games=100,
                    "skipped_unknown_or_overlapping": skipped,
                    "status": "historical_research_only",
                    "note": "No sportsbook prices, stake sizing, or validated profit claims."})
-    if return_predictions:\n        result["predictions"] = predictions\n    return result
+    if return_predictions:
+        result["predictions"] = predictions
+    return result
