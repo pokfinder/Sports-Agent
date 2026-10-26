@@ -6,12 +6,13 @@ import json
 from datetime import datetime, timezone
 from pathlib import Path
 from sports_agent.sources import probe_espn
+from sports_agent.odds_provider import probe_odds_api
 
 ROOT = Path(__file__).resolve().parents[1]
 LEDGER = ROOT / "data" / "paper_ledger.json"
 OUTPUT = ROOT / "docs" / "status.json"
 
-def build_status(ledger: dict, probes: dict, generated_at: str) -> dict:
+def build_status(ledger: dict, probes: dict, generated_at: str, odds_probe=None) -> dict:
     required = ("starting_bankroll", "realized_profit", "health", "wins", "losses", "open_tickets")
     if any(key not in ledger for key in required):
         raise ValueError("Missing required ledger field")
@@ -34,6 +35,7 @@ def build_status(ledger: dict, probes: dict, generated_at: str) -> dict:
         "reserved_stakes": reserved, "available_bankroll": round(equity - reserved, 2),
         "open_tickets": ledger["open_tickets"],
         "source_probes": probes,
+        "odds_provider_probe": odds_probe or {"ok": False, "reason": "not_checked"},
         "activity": f"Scheduled source check: {healthy}/{len(probes)} ESPN feeds responding. No verified live sportsbook odds connected."
     }
 
@@ -49,7 +51,8 @@ def main():
         except Exception as exc:
             probes[league] = {"ok": False, "error": type(exc).__name__}
     now = datetime.now(timezone.utc).isoformat()
-    status = build_status(ledger, probes, now)
+    odds_probe = probe_odds_api()
+    status = build_status(ledger, probes, now, odds_probe)
     OUTPUT.parent.mkdir(parents=True, exist_ok=True)
     OUTPUT.write_text(json.dumps(status, indent=2, sort_keys=True) + "\n")
     print(f"Published snapshot at {now}: health={status['health']}%, equity=${status['equity']}, sources={status['activity']}")
