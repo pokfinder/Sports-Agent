@@ -1,0 +1,47 @@
+{
+  "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
+  "available_bankroll": 27.6,
+  "equity": 32.6,
+  "generated_at": "2026-10-26T17:44:45.414971+00:00",
+  "health": 80,
+  "losses": 3,
+  "market_prices_verified": false,
+  "open_tickets": [
+    {
+      "american_odds": 100,
+      "description": "#007 \u2022 Memphis Grizzlies ML \u2022 $5 \u2022 +100 reference \u2022 Awaiting verified result",
+      "id": "007",
+      "stake": 5,
+      "status": "pending"
+    }
+  ],
+  "realized_profit": -7.4,
+  "reserved_stakes": 5.0,
+  "schema_version": 1,
+  "snapshot_type": "ledger_and_source_probe",
+  "source_probes": {
+    "mlb": {
+      "event_count": 1,
+      "http_status": 200,
+      "ok": true
+    },
+    "nba": {
+      "event_count": 9,
+      "http_status": 200,
+      "ok": true
+    },
+    "nfl": {
+      "event_count": 14,
+      "http_status": 200,
+      "ok": true
+    },
+    "nhl": {
+      "event_count": 3,
+      "http_status": 200,
+      "ok": true
+    }
+  },
+  "terminated": false,
+  "verified_snapshot": true,
+  "wins": 1
+}
