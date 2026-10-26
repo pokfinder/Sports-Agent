@@ -5,7 +5,7 @@ All probabilities must have been frozen before the game's scheduled start.
 """
 from datetime import datetime, timezone
 from math import isfinite
-from .odds import decimal_odds, implied_probability
+from .odds import decimal_odds
 from .calibration import audit_predictions
 
 def _utc(value):
