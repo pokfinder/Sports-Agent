@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-26T19:39:04.388267+00:00",
+  "generated_at": "2026-10-26T19:40:23.006572+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 8,
+    "local_attempts": 9,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,8 +16,8 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 488,
-    "credits_used": 12,
+    "credits_remaining": 487,
+    "credits_used": 13,
     "event_count": 14,
     "http_status": 200,
     "market_research": [
@@ -32,24 +32,12 @@
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 275,
-        "break_even_probability": 0.26667,
-        "event_id": "90620ab57facf54f629af8beec468e54",
-        "market_implied_ev": 0.00191,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.26718,
-        "selection": "Phoenix Suns",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
     ],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
