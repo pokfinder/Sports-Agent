@@ -7,7 +7,7 @@ from .nba_model import fit_ratings, predict_home, utc
 from .calibration import audit_predictions
 
 def backtest_elo(games, *, minimum_training_games=100, min_evaluation_games=100,
-                 k=20.0, home_advantage=65.0):
+                 k=20.0, home_advantage=65.0, return_predictions=False):
     if not isinstance(games, list) or minimum_training_games < 1:
         raise ValueError("Invalid game dataset")
     ordered = sorted(games, key=lambda g: utc(g["start_at"]))
@@ -42,4 +42,4 @@ def backtest_elo(games, *, minimum_training_games=100, min_evaluation_games=100,
                    "skipped_unknown_or_overlapping": skipped,
                    "status": "historical_research_only",
                    "note": "No sportsbook prices, stake sizing, or validated profit claims."})
-    return result
+    if return_predictions:\n        result["predictions"] = predictions\n    return result
