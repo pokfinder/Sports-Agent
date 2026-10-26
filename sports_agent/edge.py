@@ -9,7 +9,7 @@ from .odds import Quote, implied_probability, decimal_odds, expected_value_per_d
 
 @dataclass(frozen=True)
 class Policy:
-    min_stake: float = 5.0
+    min_stake: float = 0.01
     max_fraction_bankroll: float = 0.15
     max_total_fraction: float = 0.35
     min_ev: float = 0.02
