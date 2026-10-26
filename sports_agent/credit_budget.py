@@ -17,6 +17,9 @@ def may_probe(previous: dict, now=None) -> dict:
         used_local = 0
     prior_provider = previous.get("odds_provider_probe", {}) if isinstance(previous, dict) else {}
     remaining = prior_provider.get("credits_remaining")
+    if used_local > 0 and not isinstance(remaining, int):
+        return {"allowed": False, "reason": "provider_usage_unknown",
+                "month": month, "local_attempts": used_local}
     if isinstance(remaining, int) and remaining <= RESERVE_CREDITS:
         return {"allowed": False, "reason": "provider_reserve_reached",
                 "month": month, "local_attempts": used_local}
