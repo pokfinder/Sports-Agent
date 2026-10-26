@@ -20,7 +20,17 @@ def probe_odds_api(api_key=None, get=requests.get):
             return {"ok": False, "reason": "unexpected_payload", "prices_verified": False}
         books = sorted({str(b.get("key", "")) for e in events if isinstance(e, dict)
                         for b in e.get("bookmakers", []) if isinstance(b, dict)})
-        return {"ok": True, "http_status": 200, "event_count": len(events),
+        usage = {}
+        for header, name in (("x-requests-remaining", "credits_remaining"),
+                             ("x-requests-used", "credits_used"),
+                             ("x-requests-last", "credits_last")):
+            raw = response.headers.get(header)
+            if raw is not None:
+                try:
+                    usage[name] = max(0, int(raw))
+                except ValueError:
+                    pass
+        return {"ok": True, "http_status": 200, **usage, "event_count": len(events),
                 "bookmaker_count": len(books), "bet365_present": "bet365" in books,
                 "prices_verified": False,
                 "note": "Feed connectivity only; no market prices stored or validated"}
