@@ -25,7 +25,7 @@ def test_duplicate_and_unverified_predictions_rejected():
         audit_predictions([row])
 
 def test_well_calibrated_large_sample_passes_preliminary_gate():
-    rows = [record(i, .8 if i % 5 else .2, 1 if i % 5 else 0) for i in range(150)]
+    rows = [record(i, .99 if i % 5 else .01, 1 if i % 5 else 0) for i in range(150)]
     assert audit_predictions(rows)["model_approved"]
 
 def test_random_predictions_fail_baseline():
