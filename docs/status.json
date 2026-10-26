@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-26T19:42:29.992864+00:00",
+  "generated_at": "2026-10-26T19:43:28.449277+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 11,
+    "local_attempts": 12,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,8 +16,8 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 482,
-    "credits_used": 18,
+    "credits_remaining": 481,
+    "credits_used": 19,
     "event_count": 14,
     "http_status": 200,
     "market_research": [
