@@ -6,6 +6,14 @@ on:
         description: "Previous-season Elo retention, 0 to 1"
         required: false
         default: "1.0"
+      start_date:
+        description: "First historical date (YYYY-MM-DD)"
+        required: false
+        default: "2025-10-21"
+      end_date:
+        description: "Last historical date (YYYY-MM-DD, maximum 90 days)"
+        required: false
+        default: "2025-12-19"
 permissions:
   contents: read
 jobs:
@@ -20,9 +28,11 @@ jobs:
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
       - name: Backtest on dated historical NBA games
-        run: python -m scripts.backtest_nba --start 2025-10-21 --end 2025-12-19 --offseason-retention "$OFFSEASON_RETENTION"
+        run: python -m scripts.backtest_nba --start "$START_DATE" --end "$END_DATE" --offseason-retention "$OFFSEASON_RETENTION"
         env:
           OFFSEASON_RETENTION: ${{ inputs.offseason_retention }}
+          START_DATE: ${{ inputs.start_date }}
+          END_DATE: ${{ inputs.end_date }}
       - name: Upload audit report
         if: always()
         uses: actions/upload-artifact@v4
