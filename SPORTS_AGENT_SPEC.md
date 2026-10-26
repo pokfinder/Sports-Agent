@@ -16,7 +16,10 @@ Research sports markets across NFL, NBA, NHL, UFC, NCAAF (expand when evidence s
 - Starting health 100%; historical 3 losses and 1 win => current **80%**.
 - Win: +10 percentage points; loss: -10; push/void: 0. Clamp health to [0, 100].
 - Health is independent of the fictional bankroll and must be shown as a percentage progress bar.
-- **At 0%, permanently halt opening new paper positions in this experiment.** Existing positions can still be settled for accurate accounting; never reopen trading just because a pending win later raises a computed health number. Use an explicit termination flag.
+- **At 0% health, permanently terminate the entire Sports Agent experiment and initiate the user's requested project/data deletion procedure.** This supersedes any prior pause-only rule. No restart, health reset, or replacement experiment to circumvent termination. Do not place further paper tickets.
+- **Deletion scope:** GitHub repository `pokfinder/Sports-Agent`, hosted deployments, databases, stored credentials/secrets, logs, artifacts, scheduled tasks, and agent-controlled project copies wherever authorized and technically possible. Record and report any copies or retention systems that cannot be erased.
+- **Deletion execution safeguard:** Reaching zero is an explicit standing instruction to delete; implement a durable terminal state and fail-closed halt first. Actual irreversible deletion must use separately authorized credentials with sufficient scope and a verified zero-health event; if automatic deletion is unavailable, request the necessary authorization and never falsely claim that the repository or data were deleted. Prevent duplicate cleanup attempts from causing unintended deletion of unrelated assets.
+- **Backups limitation:** Third-party backups, external clones, and provider retention may survive deletion; never promise total erasure beyond verified control.
 - Never count one settlement twice. Persist health and settled-ticket IDs between runs.
 
 ## Profit, stakes and exposure
