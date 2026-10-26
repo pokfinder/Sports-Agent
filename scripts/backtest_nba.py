@@ -15,16 +15,18 @@ def main():
     parser.add_argument("--end",required=True)
     parser.add_argument("--minimum-training",type=int,default=100)
     parser.add_argument("--minimum-evaluation",type=int,default=100)
+    parser.add_argument("--offseason-retention",type=float,default=1.0)
     parser.add_argument("--output",default="data/nba_backtest_report.json")
     args=parser.parse_args()
     games=fetch_historical_games(args.start,args.end)
     result=backtest_elo(games,minimum_training_games=args.minimum_training,
-                        min_evaluation_games=args.minimum_evaluation, return_predictions=True)
+                        min_evaluation_games=args.minimum_evaluation, offseason_retention=args.offseason_retention, return_predictions=True)
     predictions=result.pop("predictions")
     result["separated_calibration"]=separated_calibration(predictions,min_holdout=args.minimum_evaluation)
     result.update({"source":"ESPN public scoreboard (unofficial)",
                    "start_date":args.start,"end_date":args.end,
                    "historical_games":len(games),
+                   "offseason_retention":args.offseason_retention,
                    "completion_timestamps":"conservative six-hour proxies, not actual completion times"})
     path=Path(args.output)
     path.parent.mkdir(parents=True,exist_ok=True)
