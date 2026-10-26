@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-26T19:40:43.616509+00:00",
+  "generated_at": "2026-10-26T19:41:53.607256+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 9,
+    "local_attempts": 10,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,8 +16,8 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 486,
-    "credits_used": 14,
+    "credits_remaining": 485,
+    "credits_used": 15,
     "event_count": 14,
     "http_status": 200,
     "market_research": [
@@ -25,11 +25,23 @@
         "american_odds": 160,
         "break_even_probability": 0.38462,
         "event_id": "d639f79210d0b4b17c8f293c53c8c5aa",
-        "market_implied_ev": 0.00733,
+        "market_implied_ev": 0.00794,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.38743,
+        "peer_no_vig_probability": 0.38767,
         "selection": "Minnesota Timberwolves",
         "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 175,
+        "break_even_probability": 0.36364,
+        "event_id": "b57695c11301fc8264db6b94a5ea2485",
+        "market_implied_ev": 0.00746,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.36635,
+        "selection": "Atlanta Hawks",
+        "sportsbook": "bovada",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -37,7 +49,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 2
   },
   "open_tickets": [
     {
