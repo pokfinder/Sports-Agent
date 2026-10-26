@@ -2,6 +2,7 @@ from sports_agent.odds_provider import probe_odds_api
 
 class Response:
     status_code = 200
+    headers = {"x-requests-remaining": "499", "x-requests-used": "1", "x-requests-last": "1"}
     def json(self):
         return [{"bookmakers": [{"key": "bet365"}, {"key": "fanduel"}]}]
 
@@ -15,5 +16,6 @@ def test_provider_connectivity_does_not_claim_verified_prices():
         return Response()
     result = probe_odds_api(api_key="dummy", get=fake_get)
     assert result["ok"]
+    assert result["credits_remaining"] == 499
     assert result["bet365_present"]
     assert result["prices_verified"] is False
