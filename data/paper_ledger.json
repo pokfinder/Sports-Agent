@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "starting_bankroll": 40,
+  "realized_profit": -7.4,
+  "health": 80,
+  "wins": 1,
+  "losses": 3,
+  "terminated": false,
+  "settled_ticket_ids": [
+    "001",
+    "004",
+    "005",
+    "006"
+  ],
+  "open_tickets": [
+    {
+      "id": "007",
+      "description": "#007 • Memphis Grizzlies ML • $5 • +100 reference • Awaiting verified result",
+      "stake": 5,
+      "american_odds": 100,
+      "status": "pending"
+    }
+  ],
+  "note": "Historical baseline. Do not alter without verified settlement evidence."
+}
