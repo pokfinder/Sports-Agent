@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Sports Agent | Command Center</title>
+<style>
+:root{color-scheme:dark;font-family:system-ui,-apple-system,sans-serif;background:#080d17;color:#eef4ff}*{box-sizing:border-box}body{margin:0;padding:20px;max-width:850px;margin-inline:auto}.top{display:flex;justify-content:space-between;align-items:center}.muted{color:#93a3ba}.pill{border:1px solid #34445e;border-radius:100px;padding:7px 12px;font-size:12px}.card{background:#121d2e;border:1px solid #26374c;border-radius:18px;padding:19px;margin:13px 0}.big{font-size:30px;font-weight:750}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.grid .card{margin:0}.bar{height:17px;background:#3b2430;border-radius:20px;overflow:hidden}.fill{height:100%;background:#25c58b;transition:width .4s}.row{display:flex;justify-content:space-between;align-items:center;gap:12px}.negative{color:#ff7f8f}.positive{color:#50dca6}.small{font-size:12px}h1{font-size:22px;margin:0}h2{font-size:17px;margin:0 0 12px}.warning{color:#ffcc85}a{color:#a5d0ff}footer{font-size:12px;color:#93a3ba;padding:20px 0}</style></head>
+<body><div class="top"><div><h1>◉ SPORTS AGENT</h1><div class="muted small">Paper-trading command center</div></div><span class="pill" id="status">Historical baseline</span></div>
+<section class="card"><div class="row"><h2>Experiment health</h2><div class="big" id="health">80%</div></div><div class="bar"><div class="fill" id="healthfill" style="width:80%"></div></div><div class="row small muted" style="margin-top:8px"><span>0% • Permanent termination</span><span>100% • Maximum</span></div><p id="termination" class="small warning">Deletion policy documented; automated deletion not configured.</p></section>
+<div class="grid"><section class="card"><div class="muted small">Settled equity</div><div class="big" id="equity">$32.60</div></section><section class="card"><div class="muted small">Realized P/L</div><div class="big negative" id="pnl">−$7.40</div></section><section class="card"><div class="muted small">Wins</div><div class="big" id="wins">1</div></section><section class="card"><div class="muted small">Losses</div><div class="big" id="losses">3</div></section></div>
+<section class="card"><h2>Open paper positions</h2><div id="tickets">#007 • Memphis Grizzlies ML • $5 • +100 reference • Awaiting verified result</div></section>
+<section class="card"><h2>Research activity</h2><div id="activity" class="muted">No current verified market feed connected. GitHub source probe runs every six hours.</div><p class="small muted">Price collection and candidate ranking will appear here only when verified data is available.</p></section>
+<footer><div id="updated">Baseline: Oct 26, 2026. Not a live feed.</div><div>Auto-check every 60 seconds when this page is open. No real wagers.</div></footer>
+<script>
+const money=n=>(n<0?'−':'')+'$'+Math.abs(n).toFixed(2);
+async function refresh(){
+try{const response=await fetch('./status.json?t='+Date.now(),{cache:'no-store'});if(!response.ok)throw Error('not published');const s=await response.json();if(!s.generated_at||!s.verified_snapshot)throw Error('unverified');
+for(const [id,v] of Object.entries({health:s.health+'%',equity:money(s.equity),pnl:money(s.realized_profit),wins:s.wins,losses:s.losses})){document.getElementById(id).textContent=v}
+document.getElementById('healthfill').style.width=Math.max(0,Math.min(100,s.health))+'%';
+document.getElementById('status').textContent='Latest snapshot';
+document.getElementById('updated').textContent='Snapshot generated: '+s.generated_at+' • Updates only when agent publishes';
+document.getElementById('termination').textContent=s.health===0?'ZERO HEALTH: TERMINATION REQUIRED':'Deletion policy documented; automated deletion not configured.';
+if(Array.isArray(s.open_tickets))document.getElementById('tickets').textContent=s.open_tickets.length?s.open_tickets.map(t=>t.description).join(' | '):'No open positions';
+if(s.activity)document.getElementById('activity').textContent=s.activity;
+}catch(e){document.getElementById('status').textContent='Historical baseline';}}
+refresh();setInterval(refresh,60000);
+</script></body></html>
