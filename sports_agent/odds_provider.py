@@ -1,6 +1,7 @@
 """Probe authorized The Odds API feed without exposing credentials or raw prices."""
 import os
 import requests
+from .market_research import research_moneylines
 
 ENDPOINT = "https://api.the-odds-api.com/v4/sports/basketball_nba/odds"
 
@@ -30,7 +31,10 @@ def probe_odds_api(api_key=None, get=requests.get):
                     usage[name] = max(0, int(raw))
                 except ValueError:
                     pass
-        return {"ok": True, "http_status": 200, **usage, "event_count": len(events),
+        research = research_moneylines(events)
+        return {"ok": True, "http_status": 200, **usage,
+                "market_research": research[:5], "research_opportunity_count": len(research),
+                "event_count": len(events),
                 "bookmaker_count": len(books), "bet365_present": "bet365" in books,
                 "prices_verified": False,
                 "note": "Feed connectivity only; no market prices stored or validated"}
