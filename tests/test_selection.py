@@ -9,9 +9,10 @@ def opportunity(event, probability=0.7):
             "probability_source":"independent calibrated model",
             "model_uncertainty":0.03}
 
-def test_small_bankroll_forbids_forced_five_dollar_tickets():
+def test_small_bankroll_allows_fractional_stakes():
     result = select_paper_candidates([opportunity("a")], 32.6, 5, 80)
-    assert result["accepted"] == []
+    assert len(result["accepted"]) == 1
+    assert 0.01 <= result["accepted"][0]["paper_stake"] < 5
 
 def test_large_bankroll_can_select_without_double_counting():
     result = select_paper_candidates([opportunity("a"), opportunity("a"), opportunity("b")], 200, 0, 80)
