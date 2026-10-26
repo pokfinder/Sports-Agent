@@ -7,7 +7,8 @@ def opportunity(event, probability=0.7):
               datetime.now(timezone.utc).isoformat(), "licensed-source")
     return {"quote":q, "estimated_probability":probability,
             "probability_source":"independent calibrated model",
-            "model_uncertainty":0.03}
+            "model_uncertainty":0.03, "expected_settlement_minutes":4,
+            "settlement_source":"verified market rules"}
 
 def test_small_bankroll_allows_fractional_stakes():
     result = select_paper_candidates([opportunity("a")], 32.6, 5, 80)
