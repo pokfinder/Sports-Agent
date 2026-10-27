@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-27T05:13:11.505060+00:00",
+  "generated_at": "2026-10-27T12:21:18.935916+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 21,
+    "local_attempts": 22,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,42 +16,18 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 469,
-    "credits_used": 31,
+    "credits_remaining": 468,
+    "credits_used": 32,
     "event_count": 9,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 150,
-        "break_even_probability": 0.4,
-        "event_id": "bde272846214fd6cf197e14c278c12f2",
-        "market_implied_ev": 0.02819,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.41127,
-        "selection": "Detroit Pistons",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 1100,
-        "break_even_probability": 0.08333,
+        "american_odds": 989,
+        "break_even_probability": 0.09183,
         "event_id": "7a640609d2c74cbbfd05008d0875455b",
-        "market_implied_ev": 0.02678,
+        "market_implied_ev": 0.00049,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.08556,
-        "selection": "Sacramento Kings",
-        "sportsbook": "betmgm",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 1092,
-        "break_even_probability": 0.08389,
-        "event_id": "7a640609d2c74cbbfd05008d0875455b",
-        "market_implied_ev": 0.01993,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.08556,
+        "peer_no_vig_probability": 0.09187,
         "selection": "Sacramento Kings",
         "sportsbook": "lowvig",
         "status": "research_only",
@@ -61,7 +37,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 3
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
