@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-27T12:21:18.935916+00:00",
+  "generated_at": "2026-10-27T22:20:54.882284+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 22,
+    "local_attempts": 23,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,18 +16,54 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 468,
-    "credits_used": 32,
-    "event_count": 9,
+    "credits_remaining": 467,
+    "credits_used": 33,
+    "event_count": 14,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 989,
-        "break_even_probability": 0.09183,
-        "event_id": "7a640609d2c74cbbfd05008d0875455b",
-        "market_implied_ev": 0.00049,
+        "american_odds": 525,
+        "break_even_probability": 0.16,
+        "event_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
+        "market_implied_ev": 0.05678,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.09187,
+        "peer_no_vig_probability": 0.16909,
+        "selection": "Brooklyn Nets",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 1100,
+        "break_even_probability": 0.08333,
+        "event_id": "7a640609d2c74cbbfd05008d0875455b",
+        "market_implied_ev": 0.04817,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.08735,
+        "selection": "Sacramento Kings",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 500,
+        "break_even_probability": 0.16667,
+        "event_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
+        "market_implied_ev": 0.01451,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.16909,
+        "selection": "Brooklyn Nets",
+        "sportsbook": "betmgm",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 1059,
+        "break_even_probability": 0.08628,
+        "event_id": "7a640609d2c74cbbfd05008d0875455b",
+        "market_implied_ev": 0.01235,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.08735,
         "selection": "Sacramento Kings",
         "sportsbook": "lowvig",
         "status": "research_only",
@@ -37,7 +73,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 4
   },
   "open_tickets": [
     {
@@ -59,7 +95,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 9,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     },
@@ -69,7 +105,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 3,
+      "event_count": 11,
       "http_status": 200,
       "ok": true
     }
