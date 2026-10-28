@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-28T13:05:25.273040+00:00",
+  "generated_at": "2026-10-28T22:39:51.623682+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 25,
+    "local_attempts": 26,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,68 +16,44 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 465,
-    "credits_used": 35,
-    "event_count": 17,
+    "credits_remaining": 464,
+    "credits_used": 36,
+    "event_count": 18,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 336,
-        "break_even_probability": 0.22936,
-        "event_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
-        "market_implied_ev": 0.01968,
+        "american_odds": 600,
+        "break_even_probability": 0.14286,
+        "event_id": "e74d54621abaed183e569394f935c362",
+        "market_implied_ev": 0.11218,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.23387,
-        "selection": "Washington Wizards",
-        "sportsbook": "lowvig",
+        "peer_no_vig_probability": 0.15888,
+        "selection": "Utah Jazz",
+        "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 333,
-        "break_even_probability": 0.23095,
-        "event_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
-        "market_implied_ev": 0.01266,
+        "american_odds": 290,
+        "break_even_probability": 0.25641,
+        "event_id": "83ca338f605b5664b7b1da34c19a0222",
+        "market_implied_ev": 0.00158,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.23387,
-        "selection": "Washington Wizards",
+        "peer_no_vig_probability": 0.25681,
+        "selection": "Milwaukee Bucks",
         "sportsbook": "betus",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 175,
-        "break_even_probability": 0.36364,
-        "event_id": "5997ee5c9fbdc53f9c86732b02f58158",
-        "market_implied_ev": 0.0124,
+        "american_odds": 530,
+        "break_even_probability": 0.15873,
+        "event_id": "e74d54621abaed183e569394f935c362",
+        "market_implied_ev": 0.00096,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.36814,
-        "selection": "Indiana Pacers",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 330,
-        "break_even_probability": 0.23256,
-        "event_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
-        "market_implied_ev": 0.00565,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.23387,
-        "selection": "Washington Wizards",
-        "sportsbook": "betonlineag",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 171,
-        "break_even_probability": 0.369,
-        "event_id": "6e8a41f3aeff105b0e10766515517d5e",
-        "market_implied_ev": 0.00174,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.36965,
-        "selection": "Los Angeles Clippers",
-        "sportsbook": "lowvig",
+        "peer_no_vig_probability": 0.15888,
+        "selection": "Utah Jazz",
+        "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -85,7 +61,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 5
+    "research_opportunity_count": 3
   },
   "open_tickets": [
     {
@@ -107,7 +83,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 4,
+      "event_count": 12,
       "http_status": 200,
       "ok": true
     },
@@ -117,7 +93,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 11,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     }
