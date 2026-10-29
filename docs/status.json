@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-29T13:11:53.363456+00:00",
+  "generated_at": "2026-10-29T22:49:50.238723+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 28,
+    "local_attempts": 29,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,15 +16,76 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 462,
-    "credits_used": 38,
-    "event_count": 8,
+    "credits_remaining": 461,
+    "credits_used": 39,
+    "event_count": 18,
     "http_status": 200,
-    "market_research": [],
+    "market_research": [
+      {
+        "american_odds": 235,
+        "break_even_probability": 0.29851,
+        "event_id": "cac1461f5983a88fac612685395aa897",
+        "market_implied_ev": 0.07014,
+        "peer_book_count": 3,
+        "peer_no_vig_probability": 0.31944,
+        "selection": "Los Angeles Clippers",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 230,
+        "break_even_probability": 0.30303,
+        "event_id": "c3a424e24d426af94a693e06a33e3037",
+        "market_implied_ev": 0.0382,
+        "peer_book_count": 3,
+        "peer_no_vig_probability": 0.31461,
+        "selection": "Indiana Pacers",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 220,
+        "break_even_probability": 0.3125,
+        "event_id": "cac1461f5983a88fac612685395aa897",
+        "market_implied_ev": 0.02222,
+        "peer_book_count": 3,
+        "peer_no_vig_probability": 0.31944,
+        "selection": "Los Angeles Clippers",
+        "sportsbook": "betmgm",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 102,
+        "break_even_probability": 0.49505,
+        "event_id": "45ebc54751ef3e435192eaeb0470acfb",
+        "market_implied_ev": 0.01,
+        "peer_book_count": 3,
+        "peer_no_vig_probability": 0.5,
+        "selection": "Charlotte Hornets",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 610,
+        "break_even_probability": 0.14085,
+        "event_id": "036a93ca33d6261c21d4bfa6e0d02568",
+        "market_implied_ev": 0.0086,
+        "peer_book_count": 3,
+        "peer_no_vig_probability": 0.14206,
+        "selection": "Chicago Bulls",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      }
+    ],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 0
+    "research_opportunity_count": 6
   },
   "open_tickets": [
     {
@@ -46,7 +107,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 12,
+      "event_count": 3,
       "http_status": 200,
       "ok": true
     },
@@ -56,7 +117,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 4,
+      "event_count": 11,
       "http_status": 200,
       "ok": true
     }
