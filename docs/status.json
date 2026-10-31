@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-30T22:26:18.868674+00:00",
+  "generated_at": "2026-10-31T05:52:48.625214+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 32,
+    "local_attempts": 33,
     "month": "2026-10",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,32 +16,56 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 458,
-    "credits_used": 42,
-    "event_count": 15,
+    "credits_remaining": 457,
+    "credits_used": 43,
+    "event_count": 11,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 631,
-        "break_even_probability": 0.1368,
-        "event_id": "036a93ca33d6261c21d4bfa6e0d02568",
-        "market_implied_ev": 0.02544,
+        "american_odds": 410,
+        "break_even_probability": 0.19608,
+        "event_id": "863ae1092be42c6b563b2c4f099a3eb3",
+        "market_implied_ev": 0.07127,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.14028,
-        "selection": "Chicago Bulls",
-        "sportsbook": "lowvig",
+        "peer_no_vig_probability": 0.21005,
+        "selection": "Sacramento Kings",
+        "sportsbook": "bovada",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 613,
-        "break_even_probability": 0.14025,
-        "event_id": "036a93ca33d6261c21d4bfa6e0d02568",
-        "market_implied_ev": 0.00019,
+        "american_odds": 160,
+        "break_even_probability": 0.38462,
+        "event_id": "c30d3bdf126e98ced5b9389db8617926",
+        "market_implied_ev": 0.03023,
+        "peer_book_count": 5,
+        "peer_no_vig_probability": 0.39624,
+        "selection": "Oklahoma City Thunder",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 155,
+        "break_even_probability": 0.39216,
+        "event_id": "77270837bc694d198c10f42937690d75",
+        "market_implied_ev": 0.00543,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.14028,
-        "selection": "Chicago Bulls",
-        "sportsbook": "betonlineag",
+        "peer_no_vig_probability": 0.39429,
+        "selection": "New Orleans Pelicans",
+        "sportsbook": "bovada",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 205,
+        "break_even_probability": 0.32787,
+        "event_id": "d47417c3b1a2cd427cce74c9d00f1046",
+        "market_implied_ev": 0.00276,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.32877,
+        "selection": "Utah Jazz",
+        "sportsbook": "bovada",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -49,7 +73,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 4
   },
   "open_tickets": [
     {
