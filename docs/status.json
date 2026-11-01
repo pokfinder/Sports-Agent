@@ -2,13 +2,13 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-10-31T21:41:47.807920+00:00",
+  "generated_at": "2026-11-01T06:17:12.502833+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 35,
-    "month": "2026-10",
+    "local_attempts": 1,
+    "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
@@ -16,40 +16,15 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 455,
-    "credits_used": 45,
-    "event_count": 11,
+    "credits_remaining": 499,
+    "credits_used": 1,
+    "event_count": 9,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 440,
-        "break_even_probability": 0.18519,
-        "event_id": "06a03fb0ce0f81a970c6000fb71fdc6d",
-        "market_implied_ev": 0.00253,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18565,
-        "selection": "Minnesota Timberwolves",
-        "sportsbook": "draftkings",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 126,
-        "break_even_probability": 0.44248,
-        "event_id": "c30d3bdf126e98ced5b9389db8617926",
-        "market_implied_ev": 0.00167,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.44322,
-        "selection": "Oklahoma City Thunder",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
