@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-01T13:38:27.630134+00:00",
+  "generated_at": "2026-11-01T22:07:56.725354+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 2,
+    "local_attempts": 3,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,15 +16,28 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 498,
-    "credits_used": 2,
+    "credits_remaining": 497,
+    "credits_used": 3,
     "event_count": 9,
     "http_status": 200,
-    "market_research": [],
+    "market_research": [
+      {
+        "american_odds": 950,
+        "break_even_probability": 0.09524,
+        "event_id": "e8559eaac12af915cfe6597644620c13",
+        "market_implied_ev": 0.04502,
+        "peer_book_count": 5,
+        "peer_no_vig_probability": 0.09953,
+        "selection": "Orlando Magic",
+        "sportsbook": "betmgm",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      }
+    ],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 0
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
@@ -46,7 +59,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 7,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     },
@@ -56,7 +69,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 10,
+      "event_count": 5,
       "http_status": 200,
       "ok": true
     }
