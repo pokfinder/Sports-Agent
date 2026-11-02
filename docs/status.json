@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-01T22:07:56.725354+00:00",
+  "generated_at": "2026-11-02T06:17:59.371753+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 3,
+    "local_attempts": 4,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,20 +16,68 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 497,
-    "credits_used": 3,
-    "event_count": 9,
+    "credits_remaining": 496,
+    "credits_used": 4,
+    "event_count": 20,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 950,
-        "break_even_probability": 0.09524,
-        "event_id": "e8559eaac12af915cfe6597644620c13",
-        "market_implied_ev": 0.04502,
-        "peer_book_count": 5,
-        "peer_no_vig_probability": 0.09953,
-        "selection": "Orlando Magic",
+        "american_odds": 800,
+        "break_even_probability": 0.11111,
+        "event_id": "fe9664deb3e21a28b10a3de39adfb82a",
+        "market_implied_ev": 0.04104,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.11567,
+        "selection": "Utah Jazz",
+        "sportsbook": "draftkings",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 625,
+        "break_even_probability": 0.13793,
+        "event_id": "4f6688e4d1818bd8bb3e65352c7a0406",
+        "market_implied_ev": 0.00598,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.13876,
+        "selection": "Brooklyn Nets",
         "sportsbook": "betmgm",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 120,
+        "break_even_probability": 0.45455,
+        "event_id": "f4e4165c2b9e53531629f6d0ab982b13",
+        "market_implied_ev": 0.00596,
+        "peer_book_count": 5,
+        "peer_no_vig_probability": 0.45726,
+        "selection": "Miami Heat",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 370,
+        "break_even_probability": 0.21277,
+        "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
+        "market_implied_ev": 0.00388,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.21359,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "draftkings",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": -180,
+        "break_even_probability": 0.64286,
+        "event_id": "53ad3f78c949e79381b5e90a70293ac6",
+        "market_implied_ev": 0.00262,
+        "peer_book_count": 6,
+        "peer_no_vig_probability": 0.64454,
+        "selection": "Atlanta Hawks",
+        "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -37,7 +85,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 6
   },
   "open_tickets": [
     {
