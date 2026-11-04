@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-04T06:35:37.612068+00:00",
+  "generated_at": "2026-11-04T19:50:34.519107+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 8,
+    "local_attempts": 9,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,68 +16,20 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 492,
-    "credits_used": 8,
+    "credits_remaining": 491,
+    "credits_used": 9,
     "event_count": 18,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 450,
-        "break_even_probability": 0.18182,
+        "american_odds": 480,
+        "break_even_probability": 0.17241,
         "event_id": "29988f1011d7738962e13e0a0beb693f",
-        "market_implied_ev": 0.00891,
+        "market_implied_ev": 0.01806,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18344,
+        "peer_no_vig_probability": 0.17553,
         "selection": "Sacramento Kings",
-        "sportsbook": "betmgm",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 130,
-        "break_even_probability": 0.43478,
-        "event_id": "05200821a78e4f6db8131cff1652550f",
-        "market_implied_ev": 0.00478,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.43686,
-        "selection": "Washington Wizards",
         "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 215,
-        "break_even_probability": 0.31746,
-        "event_id": "3469f522ffcacb13f88e6cd297adc110",
-        "market_implied_ev": 0.00426,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.31881,
-        "selection": "Indiana Pacers",
-        "sportsbook": "betus",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 446,
-        "break_even_probability": 0.18315,
-        "event_id": "29988f1011d7738962e13e0a0beb693f",
-        "market_implied_ev": 0.00157,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18344,
-        "selection": "Sacramento Kings",
-        "sportsbook": "lowvig",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 214,
-        "break_even_probability": 0.31847,
-        "event_id": "3469f522ffcacb13f88e6cd297adc110",
-        "market_implied_ev": 0.00107,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.31881,
-        "selection": "Indiana Pacers",
-        "sportsbook": "lowvig",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -85,7 +37,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 5
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
@@ -117,7 +69,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 11,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     }
