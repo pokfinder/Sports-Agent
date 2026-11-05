@@ -2,54 +2,29 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-05T06:56:21.283767+00:00",
+  "generated_at": "2026-11-05T20:02:07.588563+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 10,
+    "local_attempts": 11,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 5,
+    "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 490,
-    "credits_used": 10,
+    "credits_remaining": 489,
+    "credits_used": 11,
     "event_count": 6,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 255,
-        "break_even_probability": 0.28169,
-        "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
-        "market_implied_ev": 0.05651,
-        "peer_book_count": 4,
-        "peer_no_vig_probability": 0.29761,
-        "selection": "Miami Heat",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 110,
-        "break_even_probability": 0.47619,
-        "event_id": "2a76b31e02d1416de069a995589515fc",
-        "market_implied_ev": 0.01586,
-        "peer_book_count": 4,
-        "peer_no_vig_probability": 0.48374,
-        "selection": "Orlando Magic",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
@@ -71,7 +46,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 14,
+      "event_count": 2,
       "http_status": 200,
       "ok": true
     },
@@ -81,7 +56,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 4,
+      "event_count": 11,
       "http_status": 200,
       "ok": true
     }
