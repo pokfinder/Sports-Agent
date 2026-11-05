@@ -2,33 +2,45 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-04T19:50:34.519107+00:00",
+  "generated_at": "2026-11-05T06:56:21.283767+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 9,
+    "local_attempts": 10,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 9,
+    "bookmaker_count": 5,
     "credits_last": 1,
-    "credits_remaining": 491,
-    "credits_used": 9,
-    "event_count": 18,
+    "credits_remaining": 490,
+    "credits_used": 10,
+    "event_count": 6,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 480,
-        "break_even_probability": 0.17241,
-        "event_id": "29988f1011d7738962e13e0a0beb693f",
-        "market_implied_ev": 0.01806,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.17553,
-        "selection": "Sacramento Kings",
+        "american_odds": 255,
+        "break_even_probability": 0.28169,
+        "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+        "market_implied_ev": 0.05651,
+        "peer_book_count": 4,
+        "peer_no_vig_probability": 0.29761,
+        "selection": "Miami Heat",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 110,
+        "break_even_probability": 0.47619,
+        "event_id": "2a76b31e02d1416de069a995589515fc",
+        "market_implied_ev": 0.01586,
+        "peer_book_count": 4,
+        "peer_no_vig_probability": 0.48374,
+        "selection": "Orlando Magic",
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
@@ -37,7 +49,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 2
   },
   "open_tickets": [
     {
