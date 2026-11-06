@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-06T06:56:00.365170+00:00",
+  "generated_at": "2026-11-06T19:28:42.571911+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 12,
+    "local_attempts": 13,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,55 +16,67 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 488,
-    "credits_used": 12,
+    "credits_remaining": 487,
+    "credits_used": 13,
     "event_count": 13,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 750,
-        "break_even_probability": 0.11765,
+        "american_odds": 870,
+        "break_even_probability": 0.10309,
         "event_id": "d24eb5492983d6e28be3b96df396fa12",
-        "market_implied_ev": 0.08764,
+        "market_implied_ev": 0.08822,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.12796,
+        "peer_no_vig_probability": 0.11219,
         "selection": "Sacramento Kings",
         "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 295,
-        "break_even_probability": 0.25316,
-        "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
-        "market_implied_ev": 0.01141,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.25605,
-        "selection": "Charlotte Hornets",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 683,
-        "break_even_probability": 0.12771,
+        "american_odds": 810,
+        "break_even_probability": 0.10989,
         "event_id": "d24eb5492983d6e28be3b96df396fa12",
-        "market_implied_ev": 0.00191,
+        "market_implied_ev": 0.02091,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.12796,
+        "peer_no_vig_probability": 0.11219,
         "selection": "Sacramento Kings",
-        "sportsbook": "lowvig",
+        "sportsbook": "draftkings",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 145,
-        "break_even_probability": 0.40816,
-        "event_id": "86684f64a8ec8385537a36c3b3768935",
-        "market_implied_ev": 0.00123,
+        "american_odds": 265,
+        "break_even_probability": 0.27397,
+        "event_id": "9246c91f746732472c13e94bd8e7be85",
+        "market_implied_ev": 0.01987,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.40867,
-        "selection": "Memphis Grizzlies",
+        "peer_no_vig_probability": 0.27942,
+        "selection": "Washington Wizards",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 310,
+        "break_even_probability": 0.2439,
+        "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+        "market_implied_ev": 0.00981,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.2463,
+        "selection": "Charlotte Hornets",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 310,
+        "break_even_probability": 0.2439,
+        "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
+        "market_implied_ev": 0.00981,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.2463,
+        "selection": "Charlotte Hornets",
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
@@ -73,7 +85,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 4
+    "research_opportunity_count": 6
   },
   "open_tickets": [
     {
@@ -95,7 +107,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 2,
+      "event_count": 9,
       "http_status": 200,
       "ok": true
     },
@@ -105,7 +117,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 11,
+      "event_count": 3,
       "http_status": 200,
       "ok": true
     }
