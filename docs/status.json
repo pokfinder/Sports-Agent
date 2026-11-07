@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-07T13:12:28.981600+00:00",
+  "generated_at": "2026-11-07T21:56:20.962975+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 15,
+    "local_attempts": 16,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,44 +16,44 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 485,
-    "credits_used": 15,
-    "event_count": 11,
+    "credits_remaining": 484,
+    "credits_used": 16,
+    "event_count": 13,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 255,
-        "break_even_probability": 0.28169,
-        "event_id": "e76682ca6c25a37b0a53cec226b91aab",
-        "market_implied_ev": 0.01862,
+        "american_odds": 460,
+        "break_even_probability": 0.17857,
+        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
+        "market_implied_ev": 0.01972,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.28694,
-        "selection": "Indiana Pacers",
-        "sportsbook": "bovada",
+        "peer_no_vig_probability": 0.18209,
+        "selection": "Washington Wizards",
+        "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 225,
-        "break_even_probability": 0.30769,
-        "event_id": "ee45341df802cfb42dd48f1ad60c8b81",
-        "market_implied_ev": 0.00271,
+        "american_odds": 456,
+        "break_even_probability": 0.17986,
+        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
+        "market_implied_ev": 0.01244,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.30853,
-        "selection": "Brooklyn Nets",
-        "sportsbook": "bovada",
+        "peer_no_vig_probability": 0.18209,
+        "selection": "Washington Wizards",
+        "sportsbook": "lowvig",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 225,
-        "break_even_probability": 0.30769,
-        "event_id": "ee45341df802cfb42dd48f1ad60c8b81",
-        "market_implied_ev": 0.00271,
+        "american_odds": 450,
+        "break_even_probability": 0.18182,
+        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
+        "market_implied_ev": 0.00151,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.30853,
-        "selection": "Brooklyn Nets",
-        "sportsbook": "betmgm",
+        "peer_no_vig_probability": 0.18209,
+        "selection": "Washington Wizards",
+        "sportsbook": "betus",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -83,7 +83,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 9,
+      "event_count": 7,
       "http_status": 200,
       "ok": true
     },
@@ -93,7 +93,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 3,
+      "event_count": 12,
       "http_status": 200,
       "ok": true
     }
