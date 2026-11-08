@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-07T21:56:20.962975+00:00",
+  "generated_at": "2026-11-08T06:12:19.993537+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 16,
+    "local_attempts": 17,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,44 +16,56 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 484,
-    "credits_used": 16,
-    "event_count": 13,
+    "credits_remaining": 483,
+    "credits_used": 17,
+    "event_count": 11,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 460,
-        "break_even_probability": 0.17857,
-        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
-        "market_implied_ev": 0.01972,
+        "american_odds": 576,
+        "break_even_probability": 0.14793,
+        "event_id": "98eae523edadc7d4d42ab37222eb2c88",
+        "market_implied_ev": 0.03442,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18209,
-        "selection": "Washington Wizards",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 456,
-        "break_even_probability": 0.17986,
-        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
-        "market_implied_ev": 0.01244,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18209,
-        "selection": "Washington Wizards",
+        "peer_no_vig_probability": 0.15302,
+        "selection": "Milwaukee Bucks",
         "sportsbook": "lowvig",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 450,
-        "break_even_probability": 0.18182,
-        "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
-        "market_implied_ev": 0.00151,
+        "american_odds": 330,
+        "break_even_probability": 0.23256,
+        "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
+        "market_implied_ev": 0.02028,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.18209,
-        "selection": "Washington Wizards",
-        "sportsbook": "betus",
+        "peer_no_vig_probability": 0.23727,
+        "selection": "Chicago Bulls",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 561,
+        "break_even_probability": 0.15129,
+        "event_id": "98eae523edadc7d4d42ab37222eb2c88",
+        "market_implied_ev": 0.01147,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.15302,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "betonlineag",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 560,
+        "break_even_probability": 0.15152,
+        "event_id": "98eae523edadc7d4d42ab37222eb2c88",
+        "market_implied_ev": 0.00994,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.15302,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -61,7 +73,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 3
+    "research_opportunity_count": 4
   },
   "open_tickets": [
     {
