@@ -2,32 +2,32 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-10T07:26:24.623905+00:00",
+  "generated_at": "2026-11-10T19:49:27.525310+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 22,
+    "local_attempts": 23,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 8,
+    "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 478,
-    "credits_used": 22,
+    "credits_remaining": 477,
+    "credits_used": 23,
     "event_count": 10,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 810,
-        "break_even_probability": 0.10989,
+        "american_odds": 750,
+        "break_even_probability": 0.11765,
         "event_id": "3689d555c9a1c81e3d300375b4c80530",
-        "market_implied_ev": 0.092,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.12,
+        "market_implied_ev": 0.06636,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.12545,
         "selection": "Milwaukee Bucks",
         "sportsbook": "fanduel",
         "status": "research_only",
@@ -37,35 +37,35 @@
         "american_odds": 750,
         "break_even_probability": 0.11765,
         "event_id": "3689d555c9a1c81e3d300375b4c80530",
-        "market_implied_ev": 0.02,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.12,
+        "market_implied_ev": 0.06636,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.12545,
         "selection": "Milwaukee Bucks",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 123,
-        "break_even_probability": 0.44843,
-        "event_id": "f5477c781c94e09e85374bbf9149c0f1",
-        "market_implied_ev": 0.0107,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.45323,
-        "selection": "Portland Trail Blazers",
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 350,
-        "break_even_probability": 0.22222,
-        "event_id": "9ac02cb22adf276b325b1e9c9c6c588e",
-        "market_implied_ev": 0.00314,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.22292,
-        "selection": "Utah Jazz",
+        "american_odds": 215,
+        "break_even_probability": 0.31746,
+        "event_id": "78ab42ddb22b68903fd53a384d0fc616",
+        "market_implied_ev": 0.00227,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.31818,
+        "selection": "Sacramento Kings",
         "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 343,
+        "break_even_probability": 0.22573,
+        "event_id": "9ac02cb22adf276b325b1e9c9c6c588e",
+        "market_implied_ev": 0.00137,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.22604,
+        "selection": "Utah Jazz",
+        "sportsbook": "lowvig",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -95,7 +95,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 8,
+      "event_count": 6,
       "http_status": 200,
       "ok": true
     },
@@ -105,7 +105,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 3,
+      "event_count": 7,
       "http_status": 200,
       "ok": true
     }
