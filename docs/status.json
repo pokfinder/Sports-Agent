@@ -2,70 +2,82 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-10T19:49:27.525310+00:00",
+  "generated_at": "2026-11-11T06:36:41.522231+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 23,
+    "local_attempts": 24,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 9,
+    "bookmaker_count": 8,
     "credits_last": 1,
-    "credits_remaining": 477,
-    "credits_used": 23,
-    "event_count": 10,
+    "credits_remaining": 476,
+    "credits_used": 24,
+    "event_count": 14,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 750,
-        "break_even_probability": 0.11765,
-        "event_id": "3689d555c9a1c81e3d300375b4c80530",
-        "market_implied_ev": 0.06636,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.12545,
+        "american_odds": 530,
+        "break_even_probability": 0.15873,
+        "event_id": "c04e54e9e028676cd8b23259bb4364ff",
+        "market_implied_ev": 0.14545,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.18182,
         "selection": "Milwaukee Bucks",
         "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 750,
-        "break_even_probability": 0.11765,
-        "event_id": "3689d555c9a1c81e3d300375b4c80530",
-        "market_implied_ev": 0.06636,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.12545,
+        "american_odds": 781,
+        "break_even_probability": 0.11351,
+        "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
+        "market_implied_ev": 0.01186,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.11485,
+        "selection": "Chicago Bulls",
+        "sportsbook": "lowvig",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 775,
+        "break_even_probability": 0.11429,
+        "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
+        "market_implied_ev": 0.00497,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.11485,
+        "selection": "Chicago Bulls",
+        "sportsbook": "betmgm",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 450,
+        "break_even_probability": 0.18182,
+        "event_id": "c04e54e9e028676cd8b23259bb4364ff",
+        "market_implied_ev": 0.0,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.18182,
         "selection": "Milwaukee Bucks",
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 215,
-        "break_even_probability": 0.31746,
-        "event_id": "78ab42ddb22b68903fd53a384d0fc616",
-        "market_implied_ev": 0.00227,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.31818,
-        "selection": "Sacramento Kings",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 343,
-        "break_even_probability": 0.22573,
-        "event_id": "9ac02cb22adf276b325b1e9c9c6c588e",
-        "market_implied_ev": 0.00137,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.22604,
-        "selection": "Utah Jazz",
-        "sportsbook": "lowvig",
+        "american_odds": 450,
+        "break_even_probability": 0.18182,
+        "event_id": "c04e54e9e028676cd8b23259bb4364ff",
+        "market_implied_ev": 0.0,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.18182,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "betmgm",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -73,7 +85,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 4
+    "research_opportunity_count": 5
   },
   "open_tickets": [
     {
@@ -100,7 +112,7 @@
       "ok": true
     },
     "nfl": {
-      "event_count": 15,
+      "event_count": 14,
       "http_status": 200,
       "ok": true
     },
