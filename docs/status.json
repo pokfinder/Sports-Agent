@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-12T07:20:14.372704+00:00",
+  "generated_at": "2026-11-12T20:00:51.136503+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 26,
+    "local_attempts": 27,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,56 +16,20 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 474,
-    "credits_used": 26,
+    "credits_remaining": 473,
+    "credits_used": 27,
     "event_count": 8,
     "http_status": 200,
     "market_research": [
       {
         "american_odds": 360,
         "break_even_probability": 0.21739,
-        "event_id": "a98ff1ab79feb59277d989c656f16144",
-        "market_implied_ev": 0.0362,
+        "event_id": "d5c5ae8d56762b45d1ec4b85337878f3",
+        "market_implied_ev": 0.00549,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.22526,
-        "selection": "Toronto Raptors",
+        "peer_no_vig_probability": 0.21859,
+        "selection": "Washington Wizards",
         "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 340,
-        "break_even_probability": 0.22727,
-        "event_id": "d5c5ae8d56762b45d1ec4b85337878f3",
-        "market_implied_ev": 0.01389,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.23043,
-        "selection": "Washington Wizards",
-        "sportsbook": "lowvig",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 346,
-        "break_even_probability": 0.22422,
-        "event_id": "a98ff1ab79feb59277d989c656f16144",
-        "market_implied_ev": 0.00466,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.22526,
-        "selection": "Toronto Raptors",
-        "sportsbook": "lowvig",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 334,
-        "break_even_probability": 0.23041,
-        "event_id": "d5c5ae8d56762b45d1ec4b85337878f3",
-        "market_implied_ev": 6e-05,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.23043,
-        "selection": "Washington Wizards",
-        "sportsbook": "betonlineag",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -73,7 +37,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 4
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
@@ -95,7 +59,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 10,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     },
@@ -105,7 +69,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 6,
+      "event_count": 11,
       "http_status": 200,
       "ok": true
     }
