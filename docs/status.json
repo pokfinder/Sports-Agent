@@ -2,46 +2,70 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-13T06:53:16.401494+00:00",
+  "generated_at": "2026-11-13T19:48:25.864989+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 28,
+    "local_attempts": 29,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 8,
+    "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 472,
-    "credits_used": 28,
-    "event_count": 13,
+    "credits_remaining": 471,
+    "credits_used": 29,
+    "event_count": 9,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 330,
-        "break_even_probability": 0.23256,
-        "event_id": "76416359b5453c01968e94702a375f16",
-        "market_implied_ev": 0.03418,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.24051,
-        "selection": "Milwaukee Bucks",
+        "american_odds": 390,
+        "break_even_probability": 0.20408,
+        "event_id": "a51c350318d7570c2b74af08eedb9fcd",
+        "market_implied_ev": 0.03278,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.21077,
+        "selection": "Sacramento Kings",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 781,
+        "break_even_probability": 0.11351,
+        "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
+        "market_implied_ev": 0.02773,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.11666,
+        "selection": "Utah Jazz",
+        "sportsbook": "lowvig",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 500,
+        "break_even_probability": 0.16667,
+        "event_id": "1fae7f34ec6035dffa74feb148ee26c7",
+        "market_implied_ev": 0.00206,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.16701,
+        "selection": "Golden State Warriors",
         "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 430,
-        "break_even_probability": 0.18868,
-        "event_id": "a51c350318d7570c2b74af08eedb9fcd",
-        "market_implied_ev": 0.01324,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.19118,
-        "selection": "Sacramento Kings",
-        "sportsbook": "fanduel",
+        "american_odds": 500,
+        "break_even_probability": 0.16667,
+        "event_id": "1fae7f34ec6035dffa74feb148ee26c7",
+        "market_implied_ev": 0.00206,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.16701,
+        "selection": "Golden State Warriors",
+        "sportsbook": "betmgm",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -49,7 +73,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 4
   },
   "open_tickets": [
     {
@@ -71,7 +95,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 4,
+      "event_count": 9,
       "http_status": 200,
       "ok": true
     },
@@ -81,7 +105,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 11,
+      "event_count": 2,
       "http_status": 200,
       "ok": true
     }
