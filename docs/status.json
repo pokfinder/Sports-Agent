@@ -2,33 +2,45 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-12T20:00:51.136503+00:00",
+  "generated_at": "2026-11-13T06:53:16.401494+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 27,
+    "local_attempts": 28,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 9,
+    "bookmaker_count": 8,
     "credits_last": 1,
-    "credits_remaining": 473,
-    "credits_used": 27,
-    "event_count": 8,
+    "credits_remaining": 472,
+    "credits_used": 28,
+    "event_count": 13,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 360,
-        "break_even_probability": 0.21739,
-        "event_id": "d5c5ae8d56762b45d1ec4b85337878f3",
-        "market_implied_ev": 0.00549,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.21859,
-        "selection": "Washington Wizards",
+        "american_odds": 330,
+        "break_even_probability": 0.23256,
+        "event_id": "76416359b5453c01968e94702a375f16",
+        "market_implied_ev": 0.03418,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.24051,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 430,
+        "break_even_probability": 0.18868,
+        "event_id": "a51c350318d7570c2b74af08eedb9fcd",
+        "market_implied_ev": 0.01324,
+        "peer_book_count": 7,
+        "peer_no_vig_probability": 0.19118,
+        "selection": "Sacramento Kings",
         "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
@@ -37,7 +49,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 2
   },
   "open_tickets": [
     {
