@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-17T08:01:54.274090+00:00",
+  "generated_at": "2026-11-17T21:00:12.969611+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 37,
+    "local_attempts": 38,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,28 +16,15 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 463,
-    "credits_used": 37,
+    "credits_remaining": 462,
+    "credits_used": 38,
     "event_count": 5,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 310,
-        "break_even_probability": 0.2439,
-        "event_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
-        "market_implied_ev": 0.0012,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.24419,
-        "selection": "Detroit Pistons",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
@@ -59,7 +46,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 8,
+      "event_count": 5,
       "http_status": 200,
       "ok": true
     },
@@ -69,7 +56,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 2,
+      "event_count": 11,
       "http_status": 200,
       "ok": true
     }
