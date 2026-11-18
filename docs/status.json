@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-18T07:38:28.429474+00:00",
+  "generated_at": "2026-11-18T20:38:23.731991+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 39,
+    "local_attempts": 40,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,68 +16,20 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 461,
-    "credits_used": 39,
+    "credits_remaining": 460,
+    "credits_used": 40,
     "event_count": 12,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 250,
-        "break_even_probability": 0.28571,
-        "event_id": "990b541d0ada46fce07ce8b502cf425c",
-        "market_implied_ev": 0.04232,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.29781,
-        "selection": "New Orleans Pelicans",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 235,
-        "break_even_probability": 0.29851,
-        "event_id": "e0d8f7b450122679865f9a80b048908b",
-        "market_implied_ev": 0.03178,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.30799,
-        "selection": "Atlanta Hawks",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 575,
-        "break_even_probability": 0.14815,
-        "event_id": "b609888ea766ac28cd0e84f315d8f3d2",
-        "market_implied_ev": 0.02847,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.15237,
-        "selection": "Milwaukee Bucks",
-        "sportsbook": "betmgm",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 245,
-        "break_even_probability": 0.28986,
-        "event_id": "990b541d0ada46fce07ce8b502cf425c",
-        "market_implied_ev": 0.02743,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.29781,
-        "selection": "New Orleans Pelicans",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
         "american_odds": 230,
         "break_even_probability": 0.30303,
-        "event_id": "e0d8f7b450122679865f9a80b048908b",
-        "market_implied_ev": 0.01638,
+        "event_id": "4bdafbab228335fd29f62006a4bc932d",
+        "market_implied_ev": 0.01143,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.30799,
-        "selection": "Atlanta Hawks",
-        "sportsbook": "bovada",
+        "peer_no_vig_probability": 0.3065,
+        "selection": "Sacramento Kings",
+        "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -85,7 +37,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 6
+    "research_opportunity_count": 1
   },
   "open_tickets": [
     {
@@ -107,7 +59,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 5,
+      "event_count": 12,
       "http_status": 200,
       "ok": true
     },
@@ -117,7 +69,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 11,
+      "event_count": 3,
       "http_status": 200,
       "ok": true
     }
