@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-18T20:38:23.731991+00:00",
+  "generated_at": "2026-11-19T07:33:33.811292+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 40,
+    "local_attempts": 41,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,20 +16,68 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 460,
-    "credits_used": 40,
-    "event_count": 12,
+    "credits_remaining": 459,
+    "credits_used": 41,
+    "event_count": 4,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 230,
-        "break_even_probability": 0.30303,
-        "event_id": "4bdafbab228335fd29f62006a4bc932d",
-        "market_implied_ev": 0.01143,
+        "american_odds": 826,
+        "break_even_probability": 0.10799,
+        "event_id": "20fa5e2d73cec494c113790161a89aec",
+        "market_implied_ev": 0.0415,
+        "peer_book_count": 6,
+        "peer_no_vig_probability": 0.11247,
+        "selection": "Los Angeles Clippers",
+        "sportsbook": "lowvig",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 310,
+        "break_even_probability": 0.2439,
+        "event_id": "006df00e5e48650d849d1bb4cd81565d",
+        "market_implied_ev": 0.02695,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.3065,
-        "selection": "Sacramento Kings",
+        "peer_no_vig_probability": 0.25048,
+        "selection": "Milwaukee Bucks",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 290,
+        "break_even_probability": 0.25641,
+        "event_id": "3c082b72aa002131c276ff5e24bada1b",
+        "market_implied_ev": 0.02172,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.26198,
+        "selection": "Golden State Warriors",
+        "sportsbook": "bovada",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 800,
+        "break_even_probability": 0.11111,
+        "event_id": "20fa5e2d73cec494c113790161a89aec",
+        "market_implied_ev": 0.01226,
+        "peer_book_count": 6,
+        "peer_no_vig_probability": 0.11247,
+        "selection": "Los Angeles Clippers",
         "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 795,
+        "break_even_probability": 0.11173,
+        "event_id": "20fa5e2d73cec494c113790161a89aec",
+        "market_implied_ev": 0.00663,
+        "peer_book_count": 6,
+        "peer_no_vig_probability": 0.11247,
+        "selection": "Los Angeles Clippers",
+        "sportsbook": "betonlineag",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -37,7 +85,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 1
+    "research_opportunity_count": 6
   },
   "open_tickets": [
     {
