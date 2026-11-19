@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-19T07:33:33.811292+00:00",
+  "generated_at": "2026-11-19T20:44:10.131505+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 41,
+    "local_attempts": 42,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,68 +16,44 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 459,
-    "credits_used": 41,
+    "credits_remaining": 458,
+    "credits_used": 42,
     "event_count": 4,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 826,
-        "break_even_probability": 0.10799,
-        "event_id": "20fa5e2d73cec494c113790161a89aec",
-        "market_implied_ev": 0.0415,
-        "peer_book_count": 6,
-        "peer_no_vig_probability": 0.11247,
-        "selection": "Los Angeles Clippers",
-        "sportsbook": "lowvig",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 310,
-        "break_even_probability": 0.2439,
+        "american_odds": 400,
+        "break_even_probability": 0.2,
         "event_id": "006df00e5e48650d849d1bb4cd81565d",
-        "market_implied_ev": 0.02695,
+        "market_implied_ev": 0.01133,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.25048,
+        "peer_no_vig_probability": 0.20227,
         "selection": "Milwaukee Bucks",
         "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 290,
-        "break_even_probability": 0.25641,
+        "american_odds": 185,
+        "break_even_probability": 0.35088,
         "event_id": "3c082b72aa002131c276ff5e24bada1b",
-        "market_implied_ev": 0.02172,
+        "market_implied_ev": 0.00665,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.26198,
+        "peer_no_vig_probability": 0.35321,
         "selection": "Golden State Warriors",
-        "sportsbook": "bovada",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 800,
-        "break_even_probability": 0.11111,
-        "event_id": "20fa5e2d73cec494c113790161a89aec",
-        "market_implied_ev": 0.01226,
-        "peer_book_count": 6,
-        "peer_no_vig_probability": 0.11247,
-        "selection": "Los Angeles Clippers",
         "sportsbook": "betrivers",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 795,
-        "break_even_probability": 0.11173,
-        "event_id": "20fa5e2d73cec494c113790161a89aec",
-        "market_implied_ev": 0.00663,
-        "peer_book_count": 6,
-        "peer_no_vig_probability": 0.11247,
-        "selection": "Los Angeles Clippers",
-        "sportsbook": "betonlineag",
+        "american_odds": 184,
+        "break_even_probability": 0.35211,
+        "event_id": "3c082b72aa002131c276ff5e24bada1b",
+        "market_implied_ev": 0.00311,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.35321,
+        "selection": "Golden State Warriors",
+        "sportsbook": "fanduel",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -85,7 +61,7 @@
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 6
+    "research_opportunity_count": 3
   },
   "open_tickets": [
     {
@@ -107,7 +83,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 12,
+      "event_count": 4,
       "http_status": 200,
       "ok": true
     },
@@ -117,7 +93,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 3,
+      "event_count": 12,
       "http_status": 200,
       "ok": true
     }
