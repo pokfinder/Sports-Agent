@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-21T19:23:29.689821+00:00",
+  "generated_at": "2026-11-22T06:59:03.743910+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 46,
+    "local_attempts": 47,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,52 +16,15 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 454,
-    "credits_used": 46,
-    "event_count": 6,
+    "credits_remaining": 453,
+    "credits_used": 47,
+    "event_count": 7,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 365,
-        "break_even_probability": 0.21505,
-        "event_id": "6cd4587453e4da55317b2c1e3576e75b",
-        "market_implied_ev": 0.51395,
-        "peer_book_count": 5,
-        "peer_no_vig_probability": 0.32558,
-        "selection": "Milwaukee Bucks",
-        "sportsbook": "mybookieag",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 1000,
-        "break_even_probability": 0.09091,
-        "event_id": "1139ffb82856378723c5465df4e13d96",
-        "market_implied_ev": 0.0296,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.0936,
-        "selection": "New Orleans Pelicans",
-        "sportsbook": "betmgm",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 980,
-        "break_even_probability": 0.09259,
-        "event_id": "1139ffb82856378723c5465df4e13d96",
-        "market_implied_ev": 0.01088,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.0936,
-        "selection": "New Orleans Pelicans",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 3
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
