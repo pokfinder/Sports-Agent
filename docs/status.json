@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-23T07:48:36.804447+00:00",
+  "generated_at": "2026-11-23T23:58:55.647107+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 49,
+    "local_attempts": 50,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,56 +16,56 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 451,
-    "credits_used": 49,
+    "credits_remaining": 450,
+    "credits_used": 50,
     "event_count": 10,
     "http_status": 200,
     "market_research": [
       {
-        "american_odds": 575,
-        "break_even_probability": 0.14815,
-        "event_id": "3e9dc52cb055c0154839c4aec417955b",
-        "market_implied_ev": 0.02364,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.15165,
-        "selection": "Utah Jazz",
-        "sportsbook": "betmgm",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 490,
-        "break_even_probability": 0.16949,
-        "event_id": "a72a1703f7a92b80768255d1d977a761",
-        "market_implied_ev": 0.00731,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.17073,
-        "selection": "Brooklyn Nets",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 398,
-        "break_even_probability": 0.2008,
+        "american_odds": 375,
+        "break_even_probability": 0.21053,
         "event_id": "a5184238c27b9c3bfca29220f9d5d14a",
-        "market_implied_ev": 0.00266,
+        "market_implied_ev": 0.02708,
         "peer_book_count": 8,
-        "peer_no_vig_probability": 0.20134,
+        "peer_no_vig_probability": 0.21623,
         "selection": "Milwaukee Bucks",
+        "sportsbook": "betus",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 423,
+        "break_even_probability": 0.1912,
+        "event_id": "a72a1703f7a92b80768255d1d977a761",
+        "market_implied_ev": 0.0179,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.19463,
+        "selection": "Brooklyn Nets",
         "sportsbook": "lowvig",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       },
       {
-        "american_odds": 560,
-        "break_even_probability": 0.15152,
+        "american_odds": 575,
+        "break_even_probability": 0.14815,
         "event_id": "3e9dc52cb055c0154839c4aec417955b",
-        "market_implied_ev": 0.00089,
-        "peer_book_count": 7,
-        "peer_no_vig_probability": 0.15165,
+        "market_implied_ev": 0.01264,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.15002,
         "selection": "Utah Jazz",
-        "sportsbook": "fanduel",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 415,
+        "break_even_probability": 0.19417,
+        "event_id": "a72a1703f7a92b80768255d1d977a761",
+        "market_implied_ev": 0.00233,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.19463,
+        "selection": "Brooklyn Nets",
+        "sportsbook": "betonlineag",
         "status": "research_only",
         "warning": "Market-consensus discrepancy, not independently validated positive EV."
       }
@@ -95,7 +95,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 7,
+      "event_count": 10,
       "http_status": 200,
       "ok": true
     },
@@ -105,7 +105,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 5,
+      "event_count": 7,
       "http_status": 200,
       "ok": true
     }
