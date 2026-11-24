@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-23T23:58:55.647107+00:00",
+  "generated_at": "2026-11-24T10:00:19.683481+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 50,
+    "local_attempts": 51,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,64 +16,15 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 450,
-    "credits_used": 50,
-    "event_count": 10,
+    "credits_remaining": 449,
+    "credits_used": 51,
+    "event_count": 7,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 375,
-        "break_even_probability": 0.21053,
-        "event_id": "a5184238c27b9c3bfca29220f9d5d14a",
-        "market_implied_ev": 0.02708,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.21623,
-        "selection": "Milwaukee Bucks",
-        "sportsbook": "betus",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 423,
-        "break_even_probability": 0.1912,
-        "event_id": "a72a1703f7a92b80768255d1d977a761",
-        "market_implied_ev": 0.0179,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.19463,
-        "selection": "Brooklyn Nets",
-        "sportsbook": "lowvig",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 575,
-        "break_even_probability": 0.14815,
-        "event_id": "3e9dc52cb055c0154839c4aec417955b",
-        "market_implied_ev": 0.01264,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.15002,
-        "selection": "Utah Jazz",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 415,
-        "break_even_probability": 0.19417,
-        "event_id": "a72a1703f7a92b80768255d1d977a761",
-        "market_implied_ev": 0.00233,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.19463,
-        "selection": "Brooklyn Nets",
-        "sportsbook": "betonlineag",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 4
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
