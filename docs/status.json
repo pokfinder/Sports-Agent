@@ -2,12 +2,12 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-25T08:44:54.267265+00:00",
+  "generated_at": "2026-11-25T21:46:17.263814+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 53,
+    "local_attempts": 54,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
@@ -16,15 +16,40 @@
     "bet365_present": false,
     "bookmaker_count": 9,
     "credits_last": 1,
-    "credits_remaining": 447,
-    "credits_used": 53,
+    "credits_remaining": 446,
+    "credits_used": 54,
     "event_count": 9,
     "http_status": 200,
-    "market_research": [],
+    "market_research": [
+      {
+        "american_odds": 106,
+        "break_even_probability": 0.48544,
+        "event_id": "4f6d199bb67cf3a517a3880fd2f00b26",
+        "market_implied_ev": 0.00979,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.49019,
+        "selection": "Philadelphia 76ers",
+        "sportsbook": "betrivers",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      },
+      {
+        "american_odds": 260,
+        "break_even_probability": 0.27778,
+        "event_id": "e6df92326adb480e427bb7c10f445c60",
+        "market_implied_ev": 0.00878,
+        "peer_book_count": 8,
+        "peer_no_vig_probability": 0.28022,
+        "selection": "Sacramento Kings",
+        "sportsbook": "fanduel",
+        "status": "research_only",
+        "warning": "Market-consensus discrepancy, not independently validated positive EV."
+      }
+    ],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 0
+    "research_opportunity_count": 2
   },
   "open_tickets": [
     {
@@ -46,7 +71,7 @@
       "ok": true
     },
     "nba": {
-      "event_count": 3,
+      "event_count": 9,
       "http_status": 200,
       "ok": true
     },
@@ -56,7 +81,7 @@
       "ok": true
     },
     "nhl": {
-      "event_count": 1,
+      "event_count": 14,
       "http_status": 200,
       "ok": true
     }
