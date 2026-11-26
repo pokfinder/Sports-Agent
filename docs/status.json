@@ -2,54 +2,29 @@
   "activity": "Scheduled source check: 4/4 ESPN feeds responding. No verified live sportsbook odds connected.",
   "available_bankroll": 27.6,
   "equity": 32.6,
-  "generated_at": "2026-11-25T21:46:17.263814+00:00",
+  "generated_at": "2026-11-26T08:30:09.837100+00:00",
   "health": 80,
   "losses": 3,
   "market_prices_verified": false,
   "odds_budget": {
-    "local_attempts": 54,
+    "local_attempts": 55,
     "month": "2026-11",
     "monthly_soft_cap": 350,
     "reserve_credits": 150
   },
   "odds_provider_probe": {
     "bet365_present": false,
-    "bookmaker_count": 9,
+    "bookmaker_count": 4,
     "credits_last": 1,
-    "credits_remaining": 446,
-    "credits_used": 54,
-    "event_count": 9,
+    "credits_remaining": 445,
+    "credits_used": 55,
+    "event_count": 5,
     "http_status": 200,
-    "market_research": [
-      {
-        "american_odds": 106,
-        "break_even_probability": 0.48544,
-        "event_id": "4f6d199bb67cf3a517a3880fd2f00b26",
-        "market_implied_ev": 0.00979,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.49019,
-        "selection": "Philadelphia 76ers",
-        "sportsbook": "betrivers",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      },
-      {
-        "american_odds": 260,
-        "break_even_probability": 0.27778,
-        "event_id": "e6df92326adb480e427bb7c10f445c60",
-        "market_implied_ev": 0.00878,
-        "peer_book_count": 8,
-        "peer_no_vig_probability": 0.28022,
-        "selection": "Sacramento Kings",
-        "sportsbook": "fanduel",
-        "status": "research_only",
-        "warning": "Market-consensus discrepancy, not independently validated positive EV."
-      }
-    ],
+    "market_research": [],
     "note": "Feed connectivity only; no market prices stored or validated",
     "ok": true,
     "prices_verified": false,
-    "research_opportunity_count": 2
+    "research_opportunity_count": 0
   },
   "open_tickets": [
     {
